@@ -94,19 +94,19 @@ export default function PricingCard({ onSuccess }: PricingProps) {
                 <div className="w-4 h-4 rounded-full bg-brand-blue/20 flex items-center justify-center mt-0.5 text-brand-blue shrink-0">
                   <Check className="w-3 h-3 stroke-[3]" />
                 </div>
-                <span>Word & Google Doc ATS Templates</span>
+                <span>ATS-Optimized Resume Templates (Word + Google Docs)</span>
               </div>
               <div className="flex gap-2.5 items-start">
                 <div className="w-4 h-4 rounded-full bg-brand-blue/20 flex items-center justify-center mt-0.5 text-brand-blue shrink-0">
                   <Check className="w-3 h-3 stroke-[3]" />
                 </div>
-                <span>Gemini/ChatGPT Work Experience Prompts</span>
+                <span>AI-Powered Resume Rewrite Prompts for ChatGPT & Gemini</span>
               </div>
               <div className="flex gap-2.5 items-start">
                 <div className="w-4 h-4 rounded-full bg-brand-blue/20 flex items-center justify-center mt-0.5 text-brand-blue shrink-0">
                   <Check className="w-3 h-3 stroke-[3]" />
                 </div>
-                <span>LinkedIn Profile SEO Sourcing Tactics</span>
+                <span>LinkedIn Profile Optimization System for Recruiter Visibility</span>
               </div>
             </div>
             <div className="space-y-3.5 text-xs text-gray-300">
@@ -114,19 +114,19 @@ export default function PricingCard({ onSuccess }: PricingProps) {
                 <div className="w-4 h-4 rounded-full bg-brand-blue/20 flex items-center justify-center mt-0.5 text-brand-blue shrink-0">
                   <Check className="w-3 h-3 stroke-[3]" />
                 </div>
-                <span>HR Question Playbook & Salary Guarantees</span>
+                <span>HR Interview Question & Salary Negotiation Playbook</span>
               </div>
               <div className="flex gap-2.5 items-start">
                 <div className="w-4 h-4 rounded-full bg-brand-blue/20 flex items-center justify-center mt-0.5 text-brand-blue shrink-0">
                   <Check className="w-3 h-3 stroke-[3]" />
                 </div>
-                <span>Cover Letter Blueprint Formulas</span>
+                <span>High-Converting Cover Letter Templates & Frameworks</span>
               </div>
               <div className="flex gap-2.5 items-start">
                 <div className="w-4 h-4 rounded-full bg-brand-blue/20 flex items-center justify-center mt-0.5 text-brand-blue shrink-0">
                   <Check className="w-3 h-3 stroke-[3]" />
                 </div>
-                <span>Permanent Lifetime Access & Updates FREE</span>
+                <span>Lifetime Updates + Instant Access to Future Toolkit Improvements</span>
               </div>
             </div>
           </div>
