@@ -2,6 +2,8 @@ import { useState, useEffect, FormEvent } from "react";
 import { Check, ShieldCheck, Mail, Lock, Star, Sparkles, Download, Clock, Zap } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
 
+declare const fbq: any;
+
 interface PricingProps {
   onSuccess: (email: string) => void;
 }
@@ -134,7 +136,15 @@ export default function PricingCard({ onSuccess }: PricingProps) {
           {/* Secure Purchase Trigger button */}
           <button
             id="checkout-trigger-btn"
-            onClick={() => window.open("https://rzp.io/rzp/KRO069uU", "_blank")}
+            onClick={() => {
+
+              fbq('track', 'InitiateCheckout', {
+                  value: 299,
+                  currency: 'INR'
+              });
+
+              window.open("https://rzp.io/rzp/KRO069uU", "_blank");
+            }}
             className="w-full bg-linear-to-r from-brand-blue to-brand-cyan hover:shadow-[0_0_35px_rgba(0,240,255,0.4)] text-brand-dark font-black py-4 rounded-2xl text-sm uppercase tracking-widest transition-all scale-100 hover:scale-[1.01] active:scale-[0.99] flex items-center justify-center gap-2 cursor-pointer"
           >
             <Sparkles className="w-4 h-4" />
