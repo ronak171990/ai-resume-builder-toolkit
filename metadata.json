@@ -1,0 +1,6 @@
+{
+  "name": "AI Resume Builder Toolkit",
+  "description": "Premium landing page for the AI Resume Builder Toolkit. Convince users their resumes are failing ATS systems, demonstrate structural and visual transformation, and offer templates, AI prompts, and LinkedIn optimization tactics to double interview callbacks.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
