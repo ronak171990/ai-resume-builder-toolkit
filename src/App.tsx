@@ -228,7 +228,7 @@ export default function App() {
                       href="#pricing-card-section"
                       className="w-full sm:w-auto min-w-[220px] px-6 py-4 rounded-xl font-bold bg-linear-to-r from-brand-blue to-brand-cyan text-brand-dark text-xs sm:text-sm uppercase tracking-widest flex items-center justify-center"
                     >
-                      Get Instant Access — ₹299
+                      Get Instant Access — ₹99
                     </a>
 
                     <a
@@ -358,7 +358,7 @@ export default function App() {
               <div className="flex items-baseline gap-1.5 leading-none mt-0.5">
 
                 <span className="text-lg font-display font-bold text-white">
-                  ₹299
+                  ₹99
                 </span>
 
                 <span className="text-[9px] line-through text-gray-500 font-mono">
