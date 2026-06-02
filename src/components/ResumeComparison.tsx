@@ -69,7 +69,7 @@ export default function ResumeComparison() {
               </div>
 
               {/* Mock Bad Resume Layout */}
-              <div className="bg-white text-gray-800 p-6 rounded-xl font-serif text-[11px] leading-relaxed relative min-h-[430px] overflow-hidden shadow-2xl">
+              <div className="bg-white text-gray-800 p-6 rounded-xl font-serif text-[11px] leading-relaxed relative min-h-[360px] overflow-hidden shadow-2xl">
                 {/* Red outline overlays on bad sections */}
                 <div className="absolute top-4 right-4 bg-red-100 text-red-600 border border-red-200 px-1.5 py-0.5 rounded text-[8px] font-mono select-none">
                   Times New Roman Font ✗
@@ -159,7 +159,7 @@ export default function ResumeComparison() {
               </div>
 
               {/* Mock Good Resume Layout */}
-              <div className="bg-slate-50 text-slate-800 p-6 rounded-xl font-sans text-[11px] leading-relaxed relative min-h-[430px] shadow-[0_0_35px_rgba(0,240,255,0.15)] select-text border border-white">
+              <div className="bg-slate-50 text-slate-800 p-6 rounded-xl font-sans text-[11px] leading-relaxed relative min-h-[360px] shadow-[0_0_35px_rgba(0,240,255,0.15)] select-text border border-white">
                 
                 {/* Visual highlights of good attributes */}
                 <div className="absolute top-4 right-4 bg-brand-cyan/20 text-brand-cyan font-mono border border-brand-cyan/40 px-1.5 py-0.5 rounded text-[8.5px] font-bold select-none">
@@ -172,25 +172,10 @@ export default function ResumeComparison() {
                     <span className="text-[9px] font-semibold text-brand-blue tracking-wide block mt-1 uppercase">LEAD FULL-STACK SOFTWARE ENGINEER</span>
                   </div>
                   <div className="text-right text-[9px] text-slate-600 flex flex-col gap-1">
-                    <div className="flex items-center justify-end gap-1">
-    <                 Mail className="w-3 h-3 text-brand-blue shrink-0" />
-                      <span>info@johnsondoe.dev</span>
-                    </div>
-
-                    <div className="flex items-center justify-end gap-1">
-                      <Phone className="w-3 h-3 text-brand-blue shrink-0" />
-                      <span>+91 98765 43210</span>
-                    </div>
-                    
-                    <div className="flex items-center justify-end gap-1">
-                      <MapPin className="w-3 h-3 text-brand-blue shrink-0" />
-                      <span>New Delhi, DL</span>
-                    </div>
-                    
-                    <div className="flex items-center justify-end gap-1">
-                      <Linkedin className="w-3 h-3 text-brand-blue shrink-0" />
-                      <span>linkedin.com/in/johndoe</span>
-                    </div>
+                    <p className="flex items-center justify-end gap-1"><Mail className="w-2.5 h-2.5 text-brand-blue" /> info@johnsondoe.dev</p>
+                    <p className="flex items-center justify-end gap-1"><Phone className="w-2.5 h-2.5 text-brand-blue" /> +91 98765 43210</p>
+                    <p className="flex items-center justify-end gap-1"><MapPin className="w-2.5 h-2.5 text-brand-blue" /> New Delhi, DL</p>
+                    <p className="flex items-center justify-end gap-1"><Linkedin className="w-2.5 h-2.5 text-brand-blue" /> linkedin.com/in/johndoe</p>
                   </div>
                 </div>
 
