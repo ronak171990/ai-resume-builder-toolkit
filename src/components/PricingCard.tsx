@@ -51,7 +51,7 @@ export default function PricingCard({ onSuccess }: PricingProps) {
         {/* Urgent framer-motion Ribbon */}
         <div className="bg-brand-blue text-brand-dark font-sans text-xs font-black uppercase text-center py-2.5 tracking-widest flex items-center justify-center gap-1.5 shadow-md">
           <Zap className="w-3.5 h-3.5 fill-current animate-bounce" />
-          <span>⚡ 96% OFF • SPECIAL PRICING ENDS SOON</span>
+          <span>96% OFF • SPECIAL PRICING ENDS SOON</span>
         </div>
 
         <div className="p-8 md:p-10">
