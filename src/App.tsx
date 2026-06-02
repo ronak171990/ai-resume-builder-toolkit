@@ -352,7 +352,7 @@ export default function App() {
             <div>
 
               <p className="text-[10px] uppercase font-mono text-gray-400">
-                Launch Price
+                SPECIAL PRICING ENDS SOON
               </p>
 
               <div className="flex items-baseline gap-1.5 leading-none mt-0.5">
@@ -362,7 +362,7 @@ export default function App() {
                 </span>
 
                 <span className="text-[9px] line-through text-gray-500 font-mono">
-                  ₹2343
+                  ₹2
                 </span>
 
               </div>

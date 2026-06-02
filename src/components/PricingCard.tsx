@@ -48,10 +48,10 @@ export default function PricingCard({ onSuccess }: PricingProps) {
     <div id="pricing-card-section" className="max-w-2xl mx-auto py-6">
       <div className="glass-panel rounded-3xl border-brand-blue/40 bg-gradient-to-b from-brand-slate to-brand-dark overflow-hidden relative shadow-[0_0_50px_rgba(0,240,255,0.15)]">
         
-        {/* Urgent Launch Ribbon */}
+        {/* Urgent framer-motion Ribbon */}
         <div className="bg-brand-blue text-brand-dark font-sans text-xs font-black uppercase text-center py-2.5 tracking-widest flex items-center justify-center gap-1.5 shadow-md">
           <Zap className="w-3.5 h-3.5 fill-current animate-bounce" />
-          <span>87% OFF Launch Discount • Lifetime Access Left</span>
+          <span>⚡ 96% OFF • SPECIAL PRICING ENDS SOON</span>
         </div>
 
         <div className="p-8 md:p-10">
@@ -77,7 +77,7 @@ export default function PricingCard({ onSuccess }: PricingProps) {
             
             <div className="text-left md:text-right shrink-0">
               <span className="text-xs text-gray-500 line-through block font-mono">
-                Original Price ₹2,343
+                Original Price ₹2,499
               </span>
               <p className="flex items-baseline md:justify-end gap-1.5">
                 <span className="text-4xl font-display font-extrabold text-white">₹99</span>
