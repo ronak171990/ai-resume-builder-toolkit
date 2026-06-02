@@ -79,11 +79,14 @@ export default function ResumeComparison() {
                 <p className="text-center text-[10px] text-gray-500 mb-4">johnsondoe1998@gmail.com | 0987654321 | Delhi, India</p>
                 
                 <div className="border-t border-gray-300 pt-2 mb-3">
-                  <div className="relative">
-                    <h5 className="font-bold underline text-[10px] text-black">OBJECTIVE STATEMENT</h5>
-                    <div className="absolute -left-2 right-0 top-0 bottom-0 bg-red-500/5 border-l-2 border-red-400 pl-2">
-                      <span className="text-[8px] text-red-500 block font-mono font-bold">Wastes 15% recruiter attention space ✗</span>
-                    </div>
+                  <div className="mb-2">
+                    <span className="inline-block text-[8px] font-mono font-bold text-red-500 bg-red-50 px-2 py-1 rounded mb-1">
+                    ❌ Wastes recruiter attention space
+                  </span>
+
+                    <h5 className="font-bold underline text-[10px] text-black">
+                    OBJECTIVE STATEMENT
+                    </h5>
                   </div>
                   <p className="text-gray-600 italic pl-1 mt-1">
                     Seeking a challenging software engineer position where I can apply my academic parameters and learn more.
@@ -91,11 +94,16 @@ export default function ResumeComparison() {
                 </div>
 
                 <div className="border-t border-gray-300 pt-2 mb-3">
-                  <div className="relative">
-                    <h5 className="font-bold underline text-[10px] text-black">WORK HISTORY</h5>
-                    <div className="absolute -left-2 right-0 top-0 bottom-2 bg-red-500/5 border-l-2 border-red-400 pl-2">
-                      <span className="text-[8px] text-red-500 block font-mono font-bold">No quantitative metric achievements or business value ✗</span>
-                    </div>
+                  <div className="mb-2">
+                    <span className="inline-block text-[8px] font-mono font-bold text-red-500 bg-red-50 px-2 py-1 rounded mb-1">
+                      ❌ No measurable achievements
+                    </span>
+
+                    <h5 className="font-bold underline text-[10px] text-black">
+                      WORK HISTORY
+                    </h5>
+                  </div>
+                  </div>  
                   </div>
                   <p className="font-semibold text-[10px] text-black">Associate Developer at tech solution firm (2023 - Present)</p>
                   <ul className="list-disc pl-4 text-gray-600 mt-1 space-y-0.5">
@@ -106,11 +114,16 @@ export default function ResumeComparison() {
                 </div>
 
                 <div className="border-t border-gray-300 pt-2">
-                  <div className="relative">
-                    <h5 className="font-bold underline text-[10px] text-black">INTERESTS & SKILLS</h5>
-                    <div className="absolute -left-2 right-0 top-0 bottom-0 bg-red-500/5 border-l-2 border-red-400 pl-2">
-                      <span className="text-[8px] text-red-500 block font-mono font-bold">Undifferentiated blocks cannot be scanned by parser ✗</span>
-                    </div>
+                  <div className="mb-2">
+                    <span className="inline-block text-[8px] font-mono font-bold text-red-500 bg-red-50 px-2 py-1 rounded mb-1">
+                      ❌ Weak keyword section
+                    </span>
+
+                    <h5 className="font-bold underline text-[10px] text-black">
+                      INTERESTS & SKILLS
+                    </h5>
+                  </div>
+                  </div>
                   </div>
                   <p className="text-gray-600 mt-1">Cricket, Travel, Coding, CSS, Java, Python, HTML, communication.</p>
                 </div>
