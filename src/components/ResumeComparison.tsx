@@ -31,22 +31,22 @@ export default function ResumeComparison() {
         <button
           id="compare-tab-before"
           onClick={() => setActiveTab("before")}
-          className={px-4 py-2 rounded-full text-xs font-semibold uppercase tracking-wider border transition-all ${
+          className={`px-4 py-2 rounded-full text-xs font-semibold uppercase tracking-wider border transition-all ${
             activeTab === "before"
               ? "bg-red-500/10 text-red-400 border-red-500/30"
               : "bg-brand-card text-gray-500 border-white/5"
-          }}
+          }`}
         >
           Before Resume (32%)
         </button>
         <button
           id="compare-tab-after"
           onClick={() => setActiveTab("after")}
-          className={px-4 py-2 rounded-full text-xs font-semibold uppercase tracking-wider border transition-all ${
+          className={`px-4 py-2 rounded-full text-xs font-semibold uppercase tracking-wider border transition-all ${
             activeTab === "after"
               ? "bg-brand-blue/10 text-brand-blue border-brand-blue/30 shadow-[0_0_15px_rgba(0,240,255,0.1)]"
               : "bg-brand-card text-gray-500 border-white/5"
-          }}
+          }`}
         >
           After Resume (91%)
         </button>
@@ -55,7 +55,7 @@ export default function ResumeComparison() {
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-stretch">
         
         {/* Left Side: Before Resume (Hidden on mobile if tab is 'after') */}
-        <div className={flex flex-col h-full ${activeTab === "after" ? "hidden md:flex" : "flex"}}>
+        <div className={`flex flex-col h-full ${activeTab === "after" ? "hidden md:flex" : "flex"}`}>
           <div className="glass-panel p-6 rounded-2xl border-red-500/10 bg-brand-dark/40 flex-1 flex flex-col justify-between">
             <div>
               <div className="flex items-center justify-between border-b border-white/5 pb-4 mb-4">
@@ -126,7 +126,7 @@ export default function ResumeComparison() {
         </div>
 
         {/* Right Side: After Resume (Hidden on mobile if tab is 'before') */}
-        <div className={flex flex-col h-full ${activeTab === "before" ? "hidden md:flex" : "flex"}}>
+        <div className={`flex flex-col h-full ${activeTab === "before" ? "hidden md:flex" : "flex"}`}>
           <div className="glass-panel p-6 rounded-2xl border-brand-blue/30 bg-brand-slate relative flex-1 flex flex-col justify-between">
             {/* Glowing borders */}
             <div className="absolute inset-0 border border-brand-blue/15 rounded-2xl pointer-events-none" />
