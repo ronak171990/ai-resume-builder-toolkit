@@ -31,22 +31,22 @@ export default function ResumeComparison() {
         <button
           id="compare-tab-before"
           onClick={() => setActiveTab("before")}
-          className={`px-4 py-2 rounded-full text-xs font-semibold uppercase tracking-wider border transition-all ${
+          className={px-4 py-2 rounded-full text-xs font-semibold uppercase tracking-wider border transition-all ${
             activeTab === "before"
               ? "bg-red-500/10 text-red-400 border-red-500/30"
               : "bg-brand-card text-gray-500 border-white/5"
-          }`}
+          }}
         >
           Before Resume (32%)
         </button>
         <button
           id="compare-tab-after"
           onClick={() => setActiveTab("after")}
-          className={`px-4 py-2 rounded-full text-xs font-semibold uppercase tracking-wider border transition-all ${
+          className={px-4 py-2 rounded-full text-xs font-semibold uppercase tracking-wider border transition-all ${
             activeTab === "after"
               ? "bg-brand-blue/10 text-brand-blue border-brand-blue/30 shadow-[0_0_15px_rgba(0,240,255,0.1)]"
               : "bg-brand-card text-gray-500 border-white/5"
-          }`}
+          }}
         >
           After Resume (91%)
         </button>
@@ -55,7 +55,7 @@ export default function ResumeComparison() {
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-stretch">
         
         {/* Left Side: Before Resume (Hidden on mobile if tab is 'after') */}
-        <div className={`flex flex-col h-full ${activeTab === "after" ? "hidden md:flex" : "flex"}`}>
+        <div className={flex flex-col h-full ${activeTab === "after" ? "hidden md:flex" : "flex"}}>
           <div className="glass-panel p-6 rounded-2xl border-red-500/10 bg-brand-dark/40 flex-1 flex flex-col justify-between">
             <div>
               <div className="flex items-center justify-between border-b border-white/5 pb-4 mb-4">
@@ -79,14 +79,11 @@ export default function ResumeComparison() {
                 <p className="text-center text-[10px] text-gray-500 mb-4">johnsondoe1998@gmail.com | 0987654321 | Delhi, India</p>
                 
                 <div className="border-t border-gray-300 pt-2 mb-3">
-                  <div className="mb-2">
-                    <span className="inline-block text-[8px] font-mono font-bold text-red-500 bg-red-50 px-2 py-1 rounded mb-1">
-                    ❌ Wastes recruiter attention space
-                  </span>
-
-                    <h5 className="font-bold underline text-[10px] text-black">
-                    OBJECTIVE STATEMENT
-                    </h5>
+                  <div className="relative">
+                    <h5 className="font-bold underline text-[10px] text-black">OBJECTIVE STATEMENT</h5>
+                    <div className="absolute -left-2 right-0 top-0 bottom-0 bg-red-500/5 border-l-2 border-red-400 pl-2">
+                      <span className="text-[8px] text-red-500 block font-mono font-bold">Wastes 15% recruiter attention space ✗</span>
+                    </div>
                   </div>
                   <p className="text-gray-600 italic pl-1 mt-1">
                     Seeking a challenging software engineer position where I can apply my academic parameters and learn more.
@@ -94,16 +91,11 @@ export default function ResumeComparison() {
                 </div>
 
                 <div className="border-t border-gray-300 pt-2 mb-3">
-                  <div className="mb-2">
-                    <span className="inline-block text-[8px] font-mono font-bold text-red-500 bg-red-50 px-2 py-1 rounded mb-1">
-                      ❌ No measurable achievements
-                    </span>
-
-                    <h5 className="font-bold underline text-[10px] text-black">
-                      WORK HISTORY
-                    </h5>
-                  </div>
-                  </div>  
+                  <div className="relative">
+                    <h5 className="font-bold underline text-[10px] text-black">WORK HISTORY</h5>
+                    <div className="absolute -left-2 right-0 top-0 bottom-2 bg-red-500/5 border-l-2 border-red-400 pl-2">
+                      <span className="text-[8px] text-red-500 block font-mono font-bold">No quantitative metric achievements or business value ✗</span>
+                    </div>
                   </div>
                   <p className="font-semibold text-[10px] text-black">Associate Developer at tech solution firm (2023 - Present)</p>
                   <ul className="list-disc pl-4 text-gray-600 mt-1 space-y-0.5">
@@ -114,16 +106,11 @@ export default function ResumeComparison() {
                 </div>
 
                 <div className="border-t border-gray-300 pt-2">
-                  <div className="mb-2">
-                    <span className="inline-block text-[8px] font-mono font-bold text-red-500 bg-red-50 px-2 py-1 rounded mb-1">
-                      ❌ Weak keyword section
-                    </span>
-
-                    <h5 className="font-bold underline text-[10px] text-black">
-                      INTERESTS & SKILLS
-                    </h5>
-                  </div>
-                  </div>
+                  <div className="relative">
+                    <h5 className="font-bold underline text-[10px] text-black">INTERESTS & SKILLS</h5>
+                    <div className="absolute -left-2 right-0 top-0 bottom-0 bg-red-500/5 border-l-2 border-red-400 pl-2">
+                      <span className="text-[8px] text-red-500 block font-mono font-bold">Undifferentiated blocks cannot be scanned by parser ✗</span>
+                    </div>
                   </div>
                   <p className="text-gray-600 mt-1">Cricket, Travel, Coding, CSS, Java, Python, HTML, communication.</p>
                 </div>
@@ -139,7 +126,7 @@ export default function ResumeComparison() {
         </div>
 
         {/* Right Side: After Resume (Hidden on mobile if tab is 'before') */}
-        <div className={`flex flex-col h-full ${activeTab === "before" ? "hidden md:flex" : "flex"}`}>
+        <div className={flex flex-col h-full ${activeTab === "before" ? "hidden md:flex" : "flex"}}>
           <div className="glass-panel p-6 rounded-2xl border-brand-blue/30 bg-brand-slate relative flex-1 flex flex-col justify-between">
             {/* Glowing borders */}
             <div className="absolute inset-0 border border-brand-blue/15 rounded-2xl pointer-events-none" />
@@ -171,7 +158,7 @@ export default function ResumeComparison() {
                     <h4 className="text-sm font-extrabold text-slate-900 tracking-tight leading-none uppercase">JOHNSON DOE</h4>
                     <span className="text-[9px] font-semibold text-brand-blue tracking-wide block mt-1 uppercase">LEAD FULL-STACK SOFTWARE ENGINEER</span>
                   </div>
-                  <div className="text-right text-[9px] text-slate-600 flex flex-col gap-1">
+                  <div className="text-right text-[8.5px] text-slate-600 leading-tight space-y-0.5">
                     <p className="flex items-center justify-end gap-1"><Mail className="w-2.5 h-2.5 text-brand-blue" /> info@johnsondoe.dev</p>
                     <p className="flex items-center justify-end gap-1"><Phone className="w-2.5 h-2.5 text-brand-blue" /> +91 98765 43210</p>
                     <p className="flex items-center justify-end gap-1"><MapPin className="w-2.5 h-2.5 text-brand-blue" /> New Delhi, DL</p>
