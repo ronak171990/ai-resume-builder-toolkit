@@ -171,7 +171,7 @@ export default function ResumeComparison() {
                     <h4 className="text-sm font-extrabold text-slate-900 tracking-tight leading-none uppercase">JOHNSON DOE</h4>
                     <span className="text-[9px] font-semibold text-brand-blue tracking-wide block mt-1 uppercase">LEAD FULL-STACK SOFTWARE ENGINEER</span>
                   </div>
-                  <div className="text-right text-[8.5px] text-slate-600 leading-tight space-y-0.5">
+                  <div className="text-right text-[9px] text-slate-600 flex flex-col gap-1">
                     <p className="flex items-center justify-end gap-1"><Mail className="w-2.5 h-2.5 text-brand-blue" /> info@johnsondoe.dev</p>
                     <p className="flex items-center justify-end gap-1"><Phone className="w-2.5 h-2.5 text-brand-blue" /> +91 98765 43210</p>
                     <p className="flex items-center justify-end gap-1"><MapPin className="w-2.5 h-2.5 text-brand-blue" /> New Delhi, DL</p>
