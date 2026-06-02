@@ -231,7 +231,7 @@ export default function ResumeComparison() {
           href="#pricing-card-section"
           className="inline-flex items-center gap-2 px-6 py-3 rounded-full font-bold bg-linear-to-r from-brand-blue to-brand-cyan hover:shadow-[0_0_25px_rgba(0,240,255,0.4)] text-brand-dark transition-all scale-100 hover:scale-[1.02] cursor-pointer"
         >
-          Transform Your Resume Today — Only ₹299
+          Transform Your Resume Today — Only ₹99
         </a>
       </div>
     </div>

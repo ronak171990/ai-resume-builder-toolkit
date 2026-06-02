@@ -12,7 +12,7 @@ const FAQS: FAQItem[] = [
   {
     id: "access",
     question: "Will I get instant access?",
-    answer: "Yes, 100%. The moment your payment of ₹299 is securely finalized, you will be redirected to our premium dashboard to fetch the assets immediately. A direct backup high-speed download link is also instantly dispatched to your registered email address for lifetime usage."
+    answer: "Yes, 100%. The moment your payment of ₹99 is securely finalized, you will be redirected to our premium dashboard to fetch the assets immediately. A direct backup high-speed download link is also instantly dispatched to your registered email address for lifetime usage."
   },
   {
     id: "editable",
