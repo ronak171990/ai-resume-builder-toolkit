@@ -80,7 +80,7 @@ export default function PricingCard({ onSuccess }: PricingProps) {
                 Original Price ₹2,343
               </span>
               <p className="flex items-baseline md:justify-end gap-1.5">
-                <span className="text-4xl font-display font-extrabold text-white">₹299</span>
+                <span className="text-4xl font-display font-extrabold text-white">₹99</span>
                 <span className="text-xs font-bold text-brand-cyan font-mono">LIFETIME</span>
               </p>
               <span className="text-[10px] text-brand-cyan font-mono block mt-0.5">
@@ -139,7 +139,7 @@ export default function PricingCard({ onSuccess }: PricingProps) {
             onClick={() => {
 
               fbq('track', 'InitiateCheckout', {
-                  value: 299,
+                  value: 99,
                   currency: 'INR'
               });
 
@@ -148,7 +148,7 @@ export default function PricingCard({ onSuccess }: PricingProps) {
             className="w-full bg-linear-to-r from-brand-blue to-brand-cyan hover:shadow-[0_0_35px_rgba(0,240,255,0.4)] text-brand-dark font-black py-4 rounded-2xl text-sm uppercase tracking-widest transition-all scale-100 hover:scale-[1.01] active:scale-[0.99] flex items-center justify-center gap-2 cursor-pointer"
           >
             <Sparkles className="w-4 h-4" />
-            <span>Get Instant Access Now — ₹299</span>
+            <span>Get Instant Access Now — ₹99</span>
           </button>
 
           <div className="flex flex-col sm:flex-row justify-center items-center gap-y-2 gap-x-5 mt-6 text-[10px] text-gray-400 font-mono">
@@ -188,7 +188,7 @@ export default function PricingCard({ onSuccess }: PricingProps) {
                   </button>
                 </div>
                 <p className="text-[11px] text-gray-400 mt-1">
-                  You are purchasing: AI Resume Builder Toolkit for <strong className="text-brand-blue">₹299</strong>
+                  You are purchasing: AI Resume Builder Toolkit for <strong className="text-brand-blue">₹99</strong>
                 </p>
               </div>
 
@@ -232,7 +232,7 @@ export default function PricingCard({ onSuccess }: PricingProps) {
 
                 <div className="bg-brand-dark/50 p-3 rounded-lg flex items-center justify-between text-[11px] font-mono text-gray-400 border border-white/5">
                   <span>Net Amount due:</span>
-                  <strong className="text-white text-base">₹299</strong>
+                  <strong className="text-white text-base">₹99</strong>
                 </div>
 
                 <button

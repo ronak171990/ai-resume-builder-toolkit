@@ -492,7 +492,7 @@ Structure the rewritten response following the XYZ formula: "Accomplished [X] as
               href="#pricing-card-section"
               className="px-5 py-2.5 rounded bg-brand-blue hover:bg-brand-cyan hover:shadow-[0_0_15px_rgba(0,240,255,0.3)] text-brand-dark font-bold text-xs tracking-wide transition-all uppercase flex items-center gap-1.5 scale-100 hover:scale-[1.03] cursor-pointer"
             >
-              <span>Secure All Components for ₹299</span>
+              <span>Secure All Components for ₹99</span>
               <ChevronRight className="w-3.5 h-3.5" />
             </a>
           </div>
