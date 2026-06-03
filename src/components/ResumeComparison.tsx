@@ -153,7 +153,7 @@ export default function ResumeComparison() {
                   Inter (Clean Sans-Serif) ✓
                 </div>
 
-                <div className="flex justify-between items-start border-b border-slate-300 pb-3 mb-3">
+                <div className="flex justify-between items-start border-b border-slate-300 pb-4 mb-4 pt-4">
                   <div>
                     <h4 className="text-sm font-extrabold text-slate-900 tracking-tight leading-none uppercase">JOHNSON DOE</h4>
                     <span className="text-[9px] font-semibold text-brand-blue tracking-wide block mt-1 uppercase">LEAD FULL-STACK SOFTWARE ENGINEER</span>
