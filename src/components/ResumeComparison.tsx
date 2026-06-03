@@ -81,7 +81,7 @@ export default function ResumeComparison() {
                 <div className="border-t border-gray-300 pt-2 mb-3">
                   <div className="relative">
                     <h5 className="font-bold underline text-[10px] text-black">OBJECTIVE STATEMENT</h5>
-                    <div className="absolute -left-2 right-0 top-0 bottom-0 bg-red-500/5 border-l-2 border-red-400 pl-2">
+                    <div className="mt-1 bg-red-500/5 border-l-2 border-red-400 pl-2 py-1">
                       <span className="text-[8px] text-red-500 block font-mono font-bold">Wastes 15% recruiter attention space ✗</span>
                     </div>
                   </div>
@@ -108,7 +108,7 @@ export default function ResumeComparison() {
                 <div className="border-t border-gray-300 pt-2">
                   <div className="relative">
                     <h5 className="font-bold underline text-[10px] text-black">INTERESTS & SKILLS</h5>
-                    <div className="absolute -left-2 right-0 top-0 bottom-0 bg-red-500/5 border-l-2 border-red-400 pl-2">
+                    <div className="mt-1 bg-red-500/5 border-l-2 border-red-400 pl-2 py-1">
                       <span className="text-[8px] text-red-500 block font-mono font-bold">Undifferentiated blocks cannot be scanned by parser ✗</span>
                     </div>
                   </div>
