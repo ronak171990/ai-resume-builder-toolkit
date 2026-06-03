@@ -149,7 +149,7 @@ export default function ResumeComparison() {
               <div className="bg-slate-50 text-slate-800 p-6 rounded-xl font-sans text-[11px] leading-relaxed relative min-h-[360px] shadow-[0_0_35px_rgba(0,240,255,0.15)] select-text border border-white">
                 
                 {/* Visual highlights of good attributes */}
-                <div className="absolute top-4 right-4 bg-brand-cyan/20 text-brand-cyan font-mono border border-brand-cyan/40 px-1.5 py-0.5 rounded text-[8.5px] font-bold select-none">
+                <div className="absolute top-4 left-4 bg-brand-cyan/20 text-brand-cyan font-mono border border-brand-cyan/40 px-1.5 py-0.5 rounded text-[8.5px] font-bold select-none">
                   Inter (Clean Sans-Serif) ✓
                 </div>
 
